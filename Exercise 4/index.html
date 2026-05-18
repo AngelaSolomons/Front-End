@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <title>home page</title>
+</head>
+
+<body class="bg-black text-light d-flex flex-column min-vh-100 pt-5">
+    <div class="header bg-black">
+        <div class="container-fluid gx-0">
+
+
+            <!-- Navbar Start-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top py-1">
+                <div class="container" data-aos="zoom-in">
+                    <a class="navbar-brand text-warning fw-bold fs-3 logo" href="./index.html">OrangeTech</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto text-light">
+                            <li class="nav-item"><a class="nav-link active text-light fw-semibold p-3" aria-current="page" href="./index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-light fw-semibold p-3" href="./about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link text-light fw-semibold p-3" href="./products.html">Products</a></li>
+                            <li class="nav-item"><a class="nav-link text-light fw-semibold p-3" href="./contact.html">Contact</a></li>
+                            <li class="nav-item d-flex align-items-center ms-2"><a href="#" class="nav-link text-warning fs-4"><i class="bi bi-cart3"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+
+            <!-- Alert Start -->
+            <div class="alert alert-warning alert-dismissible fade show text-dark fw-semibold text-center rounded-0 mb-0 border-0 shadow pt-4" role="alert">Welcome to <strong>OrangeTech!</strong> Enjoy your stay!<button type="button" class="btn-close my-2" data-bs-dismiss="alert" aria-label="Close"></button></div>
+            <!-- Alert End -->
+
+
+            <!-- Carousel Start -->
+            <div class="container-fluid align-middle">
+                <div id="carouselExampleCaptions" class="carousel slide vh-100 carousel-right" data-bs-ride="carousel" data-bs-interval="5000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner " style="text-align: center;">
+                        <div class="carousel-item active vh-100 position-relative">
+                            <img src="https://i.ibb.co/fdCcQN4p/jimmy-phillips-h-hp-Pegd-ZEo-unsplash.jpg" class="w-100 h-100 object-fit-contain" alt="welcome">
+                            <div class="carousel-caption h-100 d-flex flex-column justify-content-center text-end me-5 pe-5" data-aos="fade-up">
+                                <h2 class="align-middle">Welcome!</h2>
+                                <h6>Want to get to know us?</h6>
+                                <p><a href="./about.html" class="btn btn-warning mt-3 fw-bold">Learn more</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item vh-100 position-relative">
+                            <img src="https://i.ibb.co/0jn3wrrx/tom-swinnen-g4-KJ6v5ee2-E-unsplash.jpg" class="w-100 h-100 object-fit-contain" alt="products">
+                            <div class="carousel-caption h-100 d-flex flex-column justify-content-end text-start align-items-start mb-5 ms-5 pb-5" data-aos="fade-up">
+                                <h2>Browse our products</h2>
+                                <p><a href="./products.html" class="btn btn-warning mt-3 fw-bold">Shop collection</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item vh-100 position-relative">
+                            <img src="https://i.ibb.co/WN2K8km1/life-time-values-d-Ml-EGYRHUq0-unsplash.jpg" class="w-100 h-100 object-fit-contain" alt="contact">
+                            <div class="carousel-caption h-100 d-flex flex-column justify-content-center text-start mt-1 ms-5 pt-5 ps-5" data-aos="fade-up">
+                                <h2>Need help?</h2>
+                                <h6>Checkout our contact page</h6>
+                                <p><a href="./contact.html" class="btn btn-warning mt-3 fw-bold">Contact now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+            <!-- Carousel End -->
+
+
+            <!-- Footer Start -->
+            <footer class="bg-black border-top border-warning py-4 mt-auto">
+                <div class="container text-center">
+                    <h5 class="text-warning fw-bold">OrangeTech</h5>
+                    <p class="text-light mb-1">Curated orange tech accessories.</p>
+                    <small class="text-secondary">© 2026 OrangeTech. All rights reserved.</small>
+                </div>
+            </footer>
+            <!-- Footer End -->
+
+
+            <!-- Script files -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+
+            <!-- AOS Start-->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
+            <!-- AOS End -->
+
+
+</body>
+</html>
